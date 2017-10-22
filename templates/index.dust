@@ -1,0 +1,24 @@
+<html>
+	<head>
+	</head>
+	<body>
+		{#dictionary}
+			<ul>
+				<li>
+					<h3>{group}</h3>
+					<ul>
+						{#list}
+						<li>
+							<a>{list}</a>
+						</li>
+						{/list}
+					</ul>
+				</li>
+			</ul>
+		{/dictionary}
+		<script>
+			
+			//console.log("asdsad", document)
+		</script>
+	</body>
+<html>
