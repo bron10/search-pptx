@@ -1,15 +1,17 @@
 <html>
 	<head>
+
 	</head>
 	<body>
 		{#dictionary}
 			<ul>
-				<li>
+				<li class="list">
 					<h3>{group}</h3>
 					<ul>
 						{#list}
 						<li>
-							<a>{list}</a>
+
+							<a href="/list/{enc}">{name}</a>
 						</li>
 						{/list}
 					</ul>
@@ -17,8 +19,15 @@
 			</ul>
 		{/dictionary}
 		<script>
-			
+
+
 			//console.log("asdsad", document)
 		</script>
 	</body>
 <html>
+<style>
+.list{
+	float : left;
+}
+	
+</style>
